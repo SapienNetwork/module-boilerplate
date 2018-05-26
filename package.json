@@ -5,7 +5,8 @@
   "main": "dist/main.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --mode development --config build/webpack.dev.conf.js",
-    "dev-verbose": "./node_modules/.bin/webpack --mode development --inline --progress --config build/webpack.dev.conf.js --bail"
+    "dev-verbose": "./node_modules/.bin/webpack --mode development --inline --progress --config build/webpack.dev.conf.js --bail",
+    "build": "webpack --mode production --config build/webpack.prod.conf.js"
   },
   "repository": {
     "type": "git",
