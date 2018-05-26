@@ -1,0 +1,43 @@
+{
+  "name": "@sapien/themodulename",
+  "version": "0.0.1",
+  "description": "Module Description",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --mode development --config build/webpack.dev.conf.js",
+    "dev-verbose": "./node_modules/.bin/webpack --mode development --inline --progress --config build/webpack.dev.conf.js --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SapienNetwork/module-boilerplate.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "development@sapien.network",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SapienNetwork/module-boilerplate/issues"
+  },
+  "homepage": "https://github.com/SapienNetwork/module-boilerplate#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-import-resolver-webpack": "^0.10.0",
+    "eslint-plugin-import": "^2.12.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-notifier": "^5.2.1",
+    "portfinder": "^1.0.13",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.2"
+  }
+}
