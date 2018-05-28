@@ -2,7 +2,7 @@
   "name": "@sapien/themodulename",
   "version": "0.0.1",
   "description": "Module Description",
-  "main": "dist/main.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --mode development --config build/webpack.dev.conf.js",
     "dev-verbose": "./node_modules/.bin/webpack --mode development --inline --progress --config build/webpack.dev.conf.js --bail",
