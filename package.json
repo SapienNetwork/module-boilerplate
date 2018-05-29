@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --mode development --config build/webpack.dev.conf.js",
     "dev-verbose": "./node_modules/.bin/webpack --mode development --inline --progress --config build/webpack.dev.conf.js --bail",
-    "build": "webpack --mode production --config build/webpack.prod.conf.js"
+    "build": "webpack --mode production --config build/webpack.prod.conf.js",
+    "install:peers": "node build/install-peers.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,7 @@
     "url": "https://github.com/SapienNetwork/module-boilerplate/issues"
   },
   "homepage": "https://github.com/SapienNetwork/module-boilerplate#readme",
-  "devDependencies": {
+  "peerDependencies": {
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.3",
     "babel-loader": "^7.1.4",
